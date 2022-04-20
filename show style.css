@@ -1,0 +1,88 @@
+﻿body {
+    background-color: #171717;
+    color: #ccebff;
+    padding-top: 50px;
+}
+
+.ulnavbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #BA55D3;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+}
+
+li a {
+    font-size: large;
+    display: block;
+    color: #F5E8DA;
+    text-align: center;
+    padding: 16px 20px;
+    float: left;
+    text-decoration: none;
+}
+
+    li a:hover {
+        background-color: black;
+    }
+
+.active {
+    color: #F5E8DA;
+    background-color: #340744;
+}
+.poster {
+    border-radius: 30pt;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height:30%;
+    margin-top:3%
+}
+.showname {
+    text-align: left;
+    font-size: x-large;
+    color: #F5E8DA;
+}
+.showbio {
+    text-align: left;
+    margin:1%;
+}
+.imgbackground {
+    background-image: url("thrones-cast.jpg");
+    background-repeat: no-repeat;
+    background-position:center top ;
+    background-size: 100%;
+    background-position-y:-30%;
+    
+}
+.div1 {
+    padding-top: 1.5%;
+}
+.list {
+    width: 6%;
+    border-radius: 5px;
+    margin: 1%;
+    text-align: center;
+    padding: 0.25%;
+    float: left;
+    list-style-type:none;
+
+}
+.castimg {
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+    padding:10px;
+    text-align:center;
+    list-style-type:none;
+    position:center;
+}
+.cast {
+    float:left;
+    margin:1%;
+}
